@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Serif 4', sans-serif;
+}
+
+
+
+
+
+                    /*ETIQUETAS GENERALES DE TODAS LAS PÁGINAS*/
+
+/* HEADER GENERAL */
+
+h1 {
+    font-size: 50px;
+}
+
+.header {
+    background-color: black;
+    color: white;
+}
+
+.header__img {
+    display: inline-block;
+    margin-left: 738px;
+    position: relative;
+    top: 10px;
+}
+
+.header__img2 {
+    display: inline-block;
+    margin-left: 13px;
+    position: relative;
+    top: 10px
+}
+
+
+.header__title {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    display: inline-block;
+    
+}
+
+/* NAV GENERAL */
+
+.nav {
+    background-color: black;
+    color: white;
+}
+
+.nav__item {
+    display: inline-block;
+    
+
+}
+
+.nav__link {
+    display: inline-block;
+    margin-left: 267px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+/* BACKGROUND IMAGE GENERAL*/
+
+.cuerpo {
+    background-image: url(../img/elefantes.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* FOOTER GENERAL */
+
+#footer {
+    background-color: black;
+    color: #f1f1f1;
+    padding-top: 6px;
+    padding-bottom: 2px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer__icono {
+    margin-left: 50px;
+    display: inline-block;
+    
+}
+
+.footer__copyright {
+    display: inline-block;
+    margin-left: 1450px;
+    position: relative;
+    bottom: 5px;
+    left: 50px;
+   
+}
+
+
+
+
+
+
+/* ETIQUETAS DE CADA PÁGINA EN PARTICULAR*/
+
+
+
+
+                    /* PÁGINA HOME */
+
+/* sección home */
+.bienvenida {
+    margin-top: 50px;
+    text-align: center;
+ }
+
+ .bienvenida__tit {
+    text-decoration: underline;
+    background-color: rgba(255,255,255, 0.7);
+ }
+
+.bienvenida__texto {
+    margin-top: 15px;
+    background-color: rgba(255,255,255, 0.7);
+}
+
+.bienvenida__img {
+    margin-top: 25px;
+    width: 100%;
+    height: 16rem;
+}
+
+/* sección horarios */
+.horarios {
+    margin-top: 100px;
+    text-align: center;
+    background-color: rgba(255,255,255, 0.7);
+}
+
+.horarios__tit {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+                    /* PÁGINA SERVICIOS */
+/* sección servicios y precios */
+.servicios {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.servicios__titulo {
+    margin-bottom: 25px;
+    text-decoration: underline;
+    margin-left: 25px;
+}
+
+.servicios__diferentes {
+    margin-top: 50px;
+    background-color: rgba(255,255,255, 0.7);
+    border-style: inset;
+    border-color: violet;
+}
+
+.servicios__img {
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+.servicios__nombres {
+    display: inline-block;
+    position: absolute;
+    margin-left: 15px;
+}
+
+.servicios__descrip {
+    display: inline-block;
+    width: 70%;
+    position: relative;
+    bottom: 70px;
+    margin-left: 25px;
+}
+
+.servicios__precio {
+    display: inline-block;
+    position: relative;
+    left: 10px;
+}
+
+
+
+
+
+
+                    /* PÁGINA GALERÍA */
+                    
+/* sección servicios anteriores */
+.anteriores {
+    margin-top: 50px;
+    background-color: rgba(255,255,255, 0.7);
+}
+.anteriores__titulo {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.anteriores__img {
+    margin-left: 100px;
+    margin-top: 50px;
+    border-style: inset;
+    border-color: violet;
+}
+
+/* sección nuestro local*/
+.local {
+    margin-top: 50px;
+    background-color: rgba(255,255,255, 0.7);
+}
+
+.local__titulo {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.local__img {
+    margin-top: 50px;
+    border-style: inset;
+    border-color: violet;
+}
+
+.local__vid {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+
+
+
+
+                    /* PÁGINA SOBRE NOSOTROS */
+
+/* sección quienes somos*/
+.quienes {
+    margin-top: 70px;
+    background-color: rgba(255,255,255, 0.7);
+}
+
+.quienes__img {
+    display: inline-block;
+    margin: 8px 50px 0px 50px;
+}
+
+.quienes__titulo {
+    display: inline-block;
+    position: relative;
+    bottom: 500px;
+    text-decoration: underline;
+}
+
+.quienes__texto {
+    display: inline-block;
+    width: 50%;
+    position: relative;
+    bottom: 100px;
+}
+
+/* sección nuestra historia */
+.nuestra {
+    margin-top: 70px;
+    background-color: rgba(255,255,255, 0.7);
+    margin-bottom: 50px;
+}
+
+.nuestra__img {
+    display: inline-block;
+    margin: 8px 50px 0px 50px;
+}
+
+.nuestra__titulo {
+    display: inline-block;
+    position: relative;
+    bottom: 500px;
+    left: 950px;
+    text-decoration: underline;
+
+}
+
+.nuestra__texto {
+    display: inline-block;
+    width: 50%;
+    position: relative;
+    bottom: 100px;
+}
+
+
+
+
+
+
+                    /* PÁGINA CONTACTO */
+
+/* sección datos de contacto*/
+.datos {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+    background-color: rgba(255,255,255, 0.7);
+
+}
+
+.datos__tit {
+    text-decoration: underline;
+}
+
+.datos__datos {
+    padding-left: 50px;
+}
+
+.datos__link {
+    padding-right: 100px;
+}
+
+/* sección mapa*/
+.mapa__tit {
+    background-color: rgba(255,255,255, 0.7);
+    display: inline-block;
+    border-style: dashed;
+    border-width: thin;
+}
+
+.mapa {
+    width: 1210px;
+    display: inline-block;
+    height: 617px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+/*sección formulario de contacto*/
+.contacto {
+    background-color: #eeeeee;
+    display: inline-block;
+    
+}
+
+.secform {
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+
